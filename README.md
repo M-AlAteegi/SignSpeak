@@ -1,3 +1,8 @@
+![Python](https://img.shields.io/badge/python-3.10-blue.svg)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)
+![Mediapipe](https://img.shields.io/badge/Mediapipe-CV-green.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 # ✋ SignSpeak
 
 **SignSpeak** is a real-time **Sign Language Recognition** system that combines **Computer Vision (Mediapipe)**, **Deep Learning (TensorFlow/Keras)**, and **Natural Language Processing (N-grams)** with a user-friendly **Tkinter GUI**.  
