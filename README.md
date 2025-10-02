@@ -10,6 +10,13 @@
 It captures hand gestures through a webcam, classifies them into letters, builds words and sentences, and intelligently suggests the **next word** using an N-gram language model — bridging the gap between signers and non-signers.
 
 ---
+## 🛠 System Overview
+The system captures hand gestures using **MediaPipe**, classifies them with a trained **MLP model**, and enhances fluency with an **N-gram language model**.  
+Users interact with the system through a **Tkinter GUI** for real-time translation.
+
+![System Flow](assets/system_flow.png)
+
+---
 
 ## 🚀 Features
 - **Real-time gesture recognition** using Mediapipe hand landmarks.  
