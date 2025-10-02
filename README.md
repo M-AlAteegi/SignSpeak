@@ -10,13 +10,6 @@
 It captures hand gestures through a webcam, classifies them into letters, builds words and sentences, and intelligently suggests the **next word** using an N-gram language model — bridging the gap between signers and non-signers.
 
 ---
-## 🛠 System Overview
-The system captures hand gestures using **MediaPipe**, classifies them with a trained **MLP model**, and enhances fluency with an **N-gram language model**.  
-Users interact with the system through a **Tkinter GUI** for real-time translation.
-
-![System Flow](assets/system_flow.png)
-
----
 
 ## 🚀 Features
 - **Real-time gesture recognition** using Mediapipe hand landmarks.  
@@ -118,6 +111,55 @@ python `GUI.py`
 - Top-3 word suggestions with confidence scores.
 
 - An ASL chart for quick reference. <br> <br>
+
+---
+## 📊 Training Metrics
+
+The ASL recognition model was trained using a Multi-Layer Perceptron (MLP) with Mediapipe hand landmark features.  
+The following plots show training progress over 100 epochs:
+
+- **Accuracy over epochs** (training vs validation)  
+- **Loss over epochs** (training vs validation)
+
+<p align="center">
+  <img src="assets/training_metrics.png" alt="Training Accuracy and Loss Graphs" width="700">
+</p>
+
+---
+
+## 📈 Evaluation Results
+
+To assess performance, we evaluated the trained model on the test dataset.  
+
+- **Confusion Matrix** shows classification performance across ASL letters.  
+- **Accuracy Scores** highlight the high generalization achieved.
+
+<p align="center">
+  <img src="assets/confusion_matrix.png" alt="Confusion Matrix" width="500">
+</p>
+
+**Summary:**
+- Training Accuracy: ~99%  
+- Validation Accuracy: ~98%  
+- The model generalized well, with only minor confusion in visually similar signs.
+
+---
+
+## 🖼 GUI Demo
+
+The system includes an interactive **Tkinter-based GUI** for real-time usage:  
+
+<p align="center">
+  <img src="assets/gui_demo.png" alt="GUI Demo Screenshot" width="700">
+</p>
+
+**Features visible in the GUI:**
+- Live webcam feed with detected hand gestures.  
+- Recognized letters, word builder, and full sentence display.  
+- Top-3 intelligent next-word suggestions.  
+- Built-in ASL reference chart for beginners. <br>
+
+This makes the system accessible to both **signers and non-signers**, bridging communication gaps in real time.
 
 ---
 
