@@ -30,11 +30,6 @@ SignSpeak/ <br>
 │ └── ASL_image.png <br>
 │ <br>
 │── models/ # (empty on GitHub, filled locally when user trains) <br>
-│ └── asl_mlp_model_new.h5 <br>
-│ └── en_counts.pkl <br>
-│ └── vocab.pkl <br>
-│ └── label_encoder.pkl <br>
-│ └── scaler.pkl <br>
 │ <br>
 │── other/ # Supporting scripts (training, testing, dataset collection) <br>
 │ └── asl_dataset.csv <br>
