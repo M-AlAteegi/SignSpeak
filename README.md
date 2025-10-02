@@ -33,6 +33,9 @@ It captures hand gestures through a webcam, classifies them into letters, builds
 SignSpeak/ <br>
 │── assets/ # Images & static assets (ASL guide, etc.) <br>
 │ └── ASL_image.png <br>
+│ └── confusion_matrix.png <br>
+│ └── gui_demo.png <br>
+│ └── training_metrics.png <br>
 │ <br>
 │── models/ # (empty on GitHub, filled locally when user trains) <br>
 │ <br>
