@@ -29,7 +29,7 @@ SignSpeak/ <br>
 │── assets/ # Images & static assets (ASL guide, etc.) <br>
 │ └── ASL_image.png <br>
 │ <br>
-│── models/ # Generated models (ignored in git via .gitignore) <br>
+│── models/ # (empty on GitHub, filled locally when user trains) <br>
 │ └── asl_mlp_model_new.h5 <br>
 │ └── en_counts.pkl <br>
 │ └── vocab.pkl <br>
@@ -37,11 +37,10 @@ SignSpeak/ <br>
 │ └── scaler.pkl <br>
 │ <br>
 │── other/ # Supporting scripts (training, testing, dataset collection) <br>
+│ └── asl_dataset.csv <br>
 │ └── dataset.py <br>
 │ └── Modeltraining.py <br>
 │ └── TrainingNGrams.py <br>
-│ └── NGramsPlots.py <br>
-│ └── Autocomplete.py <br>
 │ <br>
 │── utils/ # Utility classes & helpers <br>
 │ └── NgramAutoComplete.py <br>
