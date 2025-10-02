@@ -1,0 +1,38 @@
+# -------------------------
+# Ignore generated models
+# -------------------------
+models/*.h5
+models/*.pkl
+models/*.ckpt
+
+# -------------------------
+# Ignore datasets
+# -------------------------
+*.csv
+*.txt
+!requirements.txt   # but keep requirements.txt
+
+# -------------------------
+# Ignore Python cache
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+
+# -------------------------
+# Ignore Jupyter checkpoints
+# -------------------------
+.ipynb_checkpoints/
+
+# -------------------------
+# Ignore virtual environments
+# -------------------------
+venv/
+env/
+*.egg-info/
+
+# -------------------------
+# Ignore OS/system files
+# -------------------------
+.DS_Store
+Thumbs.db
