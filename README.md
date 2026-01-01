@@ -3,7 +3,7 @@
 ![Mediapipe](https://img.shields.io/badge/Mediapipe-CV-green.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-# ✋ SignSpeak
+# SignSpeak
 
 **SignSpeak** is a real-time **Sign Language Recognition** system that combines **Computer Vision (Mediapipe)**, **Deep Learning (TensorFlow/Keras)**, and **Natural Language Processing (N-grams)** with a user-friendly **Tkinter GUI**.  
 
@@ -11,7 +11,7 @@ It captures hand gestures through a webcam, classifies them into letters, builds
 
 ---
 
-## 🚀 Features
+## Features
 - **Real-time gesture recognition** using Mediapipe hand landmarks.  
 - **Deep Learning classifier** (MLP model) trained on ASL alphabet.  
 - **N-gram language model** for next-word prediction (trained on 4M+ Twitter dataset).  
@@ -29,7 +29,7 @@ It captures hand gestures through a webcam, classifies them into letters, builds
 
 ---
 
-## 📂 Folder Structure
+## Folder Structure
 SignSpeak/ <br>
 │── assets/ # Images & static assets (ASL guide, etc.) <br>
 │ └── ASL_image.png <br>
@@ -55,7 +55,7 @@ SignSpeak/ <br>
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 
 ### 1. Clone the repository
@@ -72,13 +72,13 @@ pip install -r requirements.txt
 ### 3. Download dataset
 
 The project uses the SwiftKey dataset (Twitter subset) for N-gram training. <br> 
-📥 [Download from Kaggle: Tweets-Blogs-News Dataset (4M)](https://www.kaggle.com/datasets/crmercado/tweets-blogs-news-swiftkey-dataset-4million?resource=download)
+[Download from Kaggle: Tweets-Blogs-News Dataset (4M)](https://www.kaggle.com/datasets/crmercado/tweets-blogs-news-swiftkey-dataset-4million?resource=download)
 
 Place en_US.twitter.txt inside the project root folder. <br> <br>
 
 ---
 
-## ▶️ Usage
+## Usage
 ### 1. Train ASL Recognition Model
 python other/`Modeltraining.py`
 
@@ -105,7 +105,7 @@ This generates:
 python `GUI.py`
 
 
-✅ The GUI will open with:
+The GUI will open with:
 
 - Live webcam feed.
 
@@ -116,7 +116,7 @@ python `GUI.py`
 - An ASL chart for quick reference. <br> <br>
 
 ---
-## 📊 Training Metrics
+## Training Metrics
 
 The ASL recognition model was trained using a Multi-Layer Perceptron (MLP) with Mediapipe hand landmark features.  
 The following plots show training progress over 100 epochs:
@@ -130,7 +130,7 @@ The following plots show training progress over 100 epochs:
 
 ---
 
-## 📈 Evaluation Results
+## Evaluation Results
 
 To assess performance, we evaluated the trained model on the test dataset.  
 
@@ -148,7 +148,7 @@ To assess performance, we evaluated the trained model on the test dataset.
 
 ---
 
-## 🖼 GUI Demo
+## GUI Demo
 
 The system includes an interactive **Tkinter-based GUI** for real-time usage:  
 
@@ -166,7 +166,7 @@ This makes the system accessible to both **signers and non-signers**, bridging c
 
 ---
 
-## 📊 Example Workflow
+## Example Workflow
 
 1. Show ASL signs → letters appear live.
 
@@ -180,7 +180,7 @@ This makes the system accessible to both **signers and non-signers**, bridging c
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - Add support for dynamic ASL gestures (not just static letters).
 
@@ -192,11 +192,11 @@ This makes the system accessible to both **signers and non-signers**, bridging c
 
 ---
 
-## 📜 License <br>
+## License <br>
 This project is licensed under the [MIT License](LICENSE) – free to use and modify. <br> <br>
 
 ---
 
-## 👨‍💻 Author <br>
+## Author <br>
 Developed by **Mohammed AlAteegi** <br>
-📧 m7mdateegi@gmail.com
+m7mdateegi@gmail.com
